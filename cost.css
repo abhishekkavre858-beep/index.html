@@ -1,0 +1,195 @@
+*{
+        margin: 0;
+        padding:0;
+    }
+nav{
+    height: 50px;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    background-color:orange;
+}
+    /* logo  */
+.logo{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    justify-content: left;
+    align-items: center;
+}
+.logo img{
+    height: 35px;
+    width: 50px;
+    margin: 8px 0px 0px 0px ;
+}
+.logo p{
+    margin-top: 15px;
+    height: 20px;
+    width: 250px;
+    font-family: arial black;
+}
+/* home and about sec */
+ul{
+    display: flex;
+    margin-left: 20px;
+
+}
+li{
+    list-style: none;
+    margin: 18px 0px 0px 50px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: white;
+    background-color: rgb(0, 34, 255);
+    border-radius: 10px;
+}
+
+/* language */
+
+.lan i{
+    font-size: 30px;  
+    margin: 10px 0px 0px 50px;
+}
+.lan a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn1{
+    height: 30px;
+    width: 80px;
+    margin: 10px 0px 0px 100px ;
+    border-radius:20px ;
+    font-family: arial black;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+}
+.btn1:hover{
+    background-color: rgb(0, 34, 255);
+    color: white;
+}
+    
+.cost h2{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-family: arial black;
+}
+.cost p{
+    height: 20px;
+    width: 1000px;
+    margin: 10px 0px 0px 100px;
+    
+}
+.calculater{
+    height: 800px;
+    width: 700px;
+    margin: 30px 0px 0px 220px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+h2{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-family: arial black;
+}
+h4{
+    margin: 20px 0px 0px 50px;
+    font-family: arial black;
+}
+hr{
+    margin-top:20px;
+}
+.location{
+    display: flex;
+}
+h5{
+    margin: 30px 0px 0px 50px;
+}
+.location input{
+    margin: 20px 0px 0px 5px;
+    height: 30px;
+    width: 250px;
+
+}
+.area{
+    display: flex;
+}
+.area input{
+    margin: 20px 0px 0px 5px;
+    height: 30px;
+    width: 250px;
+}
+.area progress{
+    margin: 20px 0px 0px 5px;
+    height: 30px;
+    width: 180px;
+}
+.qulity{
+    display: flex;
+}
+.simple{
+    border: 1px solid black;
+    height: 90px;
+    width: 150px;
+    margin: 20px 0px 0px 20px;
+}
+.simple h4{
+    margin: 10px 0px 0px 40px;
+}
+i{
+    margin: 20px 0px 0px 60px;
+    font-size: 30px;
+}
+.option select{
+    height: 50px;
+    width: 600px;
+    margin: 20px 0px 0px 50px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.rate{
+    display: flex;
+}
+.rate h5{
+    margin: 20px 0px 0px 30px;
+    width: 100px;
+}
+.rate input{
+    margin: 20px 0px 0px 0px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.btn2{
+    height: 40px;
+    width: 600px;
+    margin: 30px 0px 0px 50px;
+    border-radius: 20px;
+    font-family: arial black;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgb(0, 34, 255);
+}
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(86, 168, 218);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.copy{
+text-align: center;
+padding-top: 15px;
+}

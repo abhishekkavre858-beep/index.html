@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost Calculator</title>
+    <link rel="stylesheet" href="cost.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://homecostcalculator.in/assets/img/logo-mark.svg">
+            <p class="name">HOUSE COST CALCULATOR</p>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="material.html">Material</a></li>
+            <li>Calculator</li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="lan">
+           <a href="cart"><i class="fa-solid fa-basket-shopping"></i></a> 
+        </div>
+        <button class="btn1"><a href="login.html">Login</a></button>
+    </nav>
+    <div class="cost">
+        <h2>HOUSE COST CALCULATOR</h2>
+        <p>This is a simple cost calculator for construction work.
+            According to the area of the house, it will calculate the cost of construction. It will also give you the option to choose the quality of materials used in construction. The calculator will provide you with an estimated cost based on your inputs. Please note that this is just an estimate and actual costs may vary based on various factors such as location, labor costs, and material prices.</p>
+        </p>
+    </div>
+    <div class="calculater">
+        <h2>Cost Calculator</h2>
+        <hr>
+        <h4>Location & Dimensions</h4>
+        <div class="location">
+            <h5>State</h5>
+            <input type="text" id="location" name="location" placeholder="Enter your location">
+            <h5>City</h5>
+            <input type="text" id="city" name="city" placeholder="Enter your city">
+        </div>
+        <hr>
+        <h4>Total Area (sq ft)</h4>
+        <div class="area">
+            <h5>Total Area(sq ft)</h5>
+            <input type="number" id="length" name="length" placeholder="Enter length">
+            <h5>Floor</h5>
+            <progress id="progress" value="5" max="10"></progress>
+        </div>
+        <hr>
+        <h4>Construction Quality</h4>
+        <div class="qulity">
+            <div class="simple">
+                <i class="fa-solid fa-house"></i>
+                <h4>Simple</h4>
+            </div>
+            <div class="simple">
+                <i class="fa-solid fa-house-circle-check"></i>
+                <h4>Standerd</h4>
+            </div>
+            <div class="simple">
+                <i class="fa-sharp fa-solid fa-gem"></i>
+                <h4>Premium</h4>
+            </div>
+            <div class="simple">
+                <i class="fa-solid fa-star"></i>
+                <h4>Luxury</h4>
+            </div>
+        </div>
+        <hr>
+        <h4>Advanced Options</h4>
+        <div class="option">
+            <select id="quality" name="quality">
+                <option value="">Select quality</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </div>
+        <hr>
+        <h4>Rate Customization</h4>
+        <div class="rate">
+            <h5>Construction rate (sq ft)</h5>
+            <input type="number" id="rate" name="rate" placeholder="Enter rate">
+            <h5>Labour charges (sq ft)</h5>
+            <input type="number" id="labour" name="labour" placeholder="Enter labour charges">
+        </div>
+            <button class="btn2" type="submit">Calculate Cost</button>
+    
+    </div>
+    <footer>
+        <div class="copy">
+            <span>Conditions of Use & Sale</span>
+            <span>Privacy Notice</span>
+            <span>Intrest-Based Ads</span>
+            <p>&copyHOUSE COST CALCULATOR,1996-2026</p>
+        </div>
+    </footer> 
+</body>
+</html>
